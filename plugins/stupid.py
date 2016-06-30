@@ -104,6 +104,19 @@ def vendingmachine(inp, nick=None, me=None):
 
 
 # MISC
+
+@hook.command('london',autohelp=False)
+@hook.command('meme',autohelp=False)
+def(london(inp,nick=None):
+    inp=inp[:16]
+    string=''
+	for i in len(inp):
+	    string=string+inp[i]+' '
+	reply(string)
+	for i in len(inp)
+		reply(inp[1])
+	return
+
 @hook.command('daki', autohelp=False)
 @hook.command('snuggle', autohelp=False)
 @hook.command(autohelp=False)
